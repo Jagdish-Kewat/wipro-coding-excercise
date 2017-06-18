@@ -20,7 +20,7 @@ jar {
 }
 
 dependencies {
-      compile project(':domain')
+      compile project(':wipro-test-domain')
       compile 'com.netflix.feign:feign-core:8.16.2'
 }
 
