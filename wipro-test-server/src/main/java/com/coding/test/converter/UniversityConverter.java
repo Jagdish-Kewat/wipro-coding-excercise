@@ -11,7 +11,7 @@ import com.coding.test.entity.UniversityEntity;
 import com.google.common.collect.Lists;
 
 @Component
-public class UniversitiesConverter {
+public class UniversityConverter {
 
   int id;
   String name;
