@@ -1,9 +1,11 @@
 package com.coding.test.repository;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
-import com.coding.test.entity.CoursesEntity;
+import com.coding.test.entity.CourseEntity;
 
-public interface CoursesRepository extends CrudRepository<CoursesEntity, Integer>{
+@Repository
+public interface CoursesRepository extends CrudRepository<CourseEntity, Integer> {
 
 }
